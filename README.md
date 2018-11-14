@@ -1,6 +1,6 @@
 # Portfolio
   
-  This is first project developed for Udacity’s Front-End Web Developer program. The objective was to replicate provided PDF mockup in HTML and CSS. Application is responsive and displays on all display sizes. 
+  This is first project developed for Udacity’s Front-End Web Developer program. The objective was to replicate provided [PDF mockup](/doc/design-mockup-portfolio.pdf) in HTML and CSS. Application is responsive and displays on all display sizes. 
 
 ## Instructions
 1. Download or clone the repository
