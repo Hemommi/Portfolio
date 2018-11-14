@@ -1,0 +1,138 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Segoe UI", Tahoma, sans-serif;
+	background-color: #fff;
+	margin: 0px;
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.name {
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: #2d3c49;
+	font-size: 47px;
+	font-weight: 300;
+}
+
+.title {
+	font-family: 16px Lato,Tahoma,sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color:#2d3c49;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.featured-projects {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 200;
+	margin-top: 5vh;
+	margin-bottom: 3vh;
+	font-size: 2em;
+	color: #7d97ad;
+	font-weight: 350;
+	letter-spacing: 2px;
+}
+
+.pic{
+	color: #2d3c49;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: 30px;
+	letter-spacing: 1px;
+}
+
+.project-1 {
+	color: #7d97ad;
+	text-transform: lowercase;
+}
+
+.udacity-logo {
+	width: 130px;
+	height: 110px;
+}
+
+hr {
+	display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 4px;
+	background-color: #7d97ad;
+}
+
+.image-style {
+	width: 350px;
+	height: 200px;
+	margin-bottom: 3vh;
+}
+
+.image-study {
+	width: 100%;
+	height: auto;
+	margin-top: 3vh;
+	-webkit-tap-highlight-color: white;
+}
+
+/* Extra Small Devices, Phones */ 
+@media screen and (min-width: 480px) {
+	.image-style {
+		width: 100%;
+		height: auto;
+	}
+
+	.image-study {
+		width: 100%;
+		height: auto;
+	}
+}
+
+/*Small devices, tablets*/
+@media screen and (min-width: 768px) {
+	.image-style {
+		width: 100%;
+		height: auto;
+	}
+
+	.image-study {
+		width: 100%;
+		height: auto;
+	}
+}
+
+/*Medium Devices, Desktops*/
+@media screen and (min-width: 992px) {
+	.image-style {
+		width: 100%;
+		height: auto;
+	}
+	.image-study {
+		width: 100%;
+		height: 100%;
+	}
+}
+
+/*Large Devices, Wide Screens*/
+@media screen and (min-width: 1200px) {
+	.image-style {
+		width: 100%;
+		height: auto;
+	}
+
+	.image-study {
+		width: 100%;
+		height: 100%;
+	}
+}
